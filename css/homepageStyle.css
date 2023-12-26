@@ -1,0 +1,142 @@
+/* General */
+/* .container {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+} */
+
+/* Description */
+
+.banner-con {
+  width: 80%;
+}
+
+.wayBanner {
+  padding: 1%;
+}
+.description-heder {
+  text-align: center;
+}
+
+.card-p {
+  margin: 2%;
+}
+
+.description-p {
+  padding: 2%;
+}
+
+.way-img {
+  width: 100%;
+  padding: 2%;
+}
+
+/* Best seller */
+
+.top-heder {
+  text-align: center;
+  background-color: rgb(42, 43, 42);
+  color: white;
+}
+
+.best-seller-cars {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.big-card {
+  /* width: 18rem; */
+  width: 95%;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img-top {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-title {
+  text-align: center;
+  color: rgb(69, 67, 67);
+}
+.car-name {
+  color: white;
+  background-color: rgb(69, 67, 67);
+  border: solid rgb(69, 67, 67);
+  border-radius: 5%;
+}
+
+.card-text {
+  text-align: center;
+  color: rgb(69, 67, 67);
+}
+
+.pax-img {
+  width: 100%;
+}
+.list-group {
+  margin: 2%;
+}
+.order-btn {
+  margin: 2%;
+}
+
+.alert-success {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 130%;
+}
+
+/* Clear */
+.clear {
+  clear: both;
+}
+
+/* Most pupular city */
+
+.city-con {
+  width: 80%;
+}
+
+.city {
+  display: flex;
+}
+
+.city-list {
+  list-style: none;
+}
+
+.city ul a {
+  color: gray;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.city :hover {
+  color: #4b4c4d;
+}
+
+.city-heder {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .best-seller-cars {
+    flex-direction: column;
+  }
+  .col-3-cars {
+    width: 100%;
+  }
+
+  .city {
+    flex-direction: column;
+  }
+
+  .col-3-city {
+    width: 100%;
+  }
+  .description-span {
+    display: none;
+  }
+}

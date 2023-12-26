@@ -1,0 +1,70 @@
+.mainDiv {
+  width: 70%;
+  margin: 5% auto;
+  overflow: auto;
+  justify-content: space-evenly;
+}
+
+.searchArea {
+  /* border: solid black; */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5%;
+  overflow: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.heder {
+  width: 100%;
+  display: flex;
+  float: left;
+}
+
+.arowImg {
+  width: 40%;
+}
+
+.areaPart {
+  width: 49%;
+  padding: 1%;
+}
+
+.qDiv {
+  overflow: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+
+.lbl {
+  width: 30%;
+}
+
+.inputTag {
+  width: 70%;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.btnSearch {
+  width: 98%;
+}
+
+.selectionBorder {
+  border: solid lightgray 1px;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .searchArea {
+    flex-direction: column;
+  }
+
+  .areaPart {
+    width: 100%;
+  }
+}

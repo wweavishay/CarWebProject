@@ -1,0 +1,18 @@
+.banner-con {
+  width: 80%;
+}
+
+.description-heder {
+  text-align: center;
+}
+
+.banner {
+  margin: 3% auto;
+  padding: 1%;
+  width: 100%;
+}
+
+.banner-img {
+  width: 100%;
+  margin: auto;
+}

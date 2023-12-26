@@ -1,0 +1,101 @@
+.order {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 2% auto;
+}
+
+.orderDetailes {
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 98%;
+  margin: 1%;
+}
+.titleOder {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.allDetailes,
+.carDetailes {
+  width: 49%;
+  padding: 0.5%;
+}
+.orderNum {
+  background-image: linear-gradient(to right, rgba(22, 115, 71, 255), white);
+  border: none;
+}
+
+.orderTitle {
+  font-size: 180%;
+  font-weight: bold;
+  color: white;
+}
+
+.info,
+.infoA,
+.orderNum {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoA {
+  text-align: center;
+}
+
+.criterionA {
+  width: 30%;
+}
+.criterion {
+  width: 50%;
+  font-weight: bold;
+}
+
+.content {
+  width: 50%;
+}
+
+.criterion,
+.content {
+  font-size: 130%;
+}
+
+.carImg {
+  margin: auto;
+}
+
+.A {
+  font-size: 170%;
+}
+
+.cancelOrder,
+.orderNum {
+  width: 98%;
+  margin: auto;
+}
+
+.btnCancel {
+  width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+  .orderDetailes {
+    flex-direction: column;
+  }
+
+  .order {
+    width: 80%;
+  }
+
+  .allDetailes,
+  .carDetailes {
+    width: 100%;
+  }
+
+  .criterionA {
+    width: 50%;
+  }
+}

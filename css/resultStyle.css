@@ -1,0 +1,89 @@
+/* Best seller */
+
+.top-heder {
+  margin: 1% auto;
+  text-align: center;
+  background-color: rgb(42, 43, 42);
+  color: white;
+  width: 80%;
+}
+
+.result-con {
+  width: 80%;
+}
+
+.best-seller-cars {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.col-3-cars {
+  margin: 1% auto;
+}
+
+.big-card {
+  /* width: 18rem; */
+  width: 95%;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img-top {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-title {
+  text-align: center;
+  color: rgb(69, 67, 67);
+}
+.car-name {
+  color: white;
+  background-color: rgb(69, 67, 67);
+  border: solid rgb(69, 67, 67);
+  border-radius: 5%;
+}
+
+.card-text {
+  text-align: center;
+  color: rgb(69, 67, 67);
+}
+
+.pax-img {
+  width: 100%;
+}
+.list-group {
+  margin: 2%;
+}
+.order-btn {
+  margin: 2%;
+}
+
+.alert-success {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 130%;
+}
+
+/* result title */
+.textDiv {
+  margin: 1.5% 0 0 0;
+}
+
+.resultArea {
+  display: flex;
+  overflow: auto;
+  flex-direction: row;
+  padding: 0.5%;
+  justify-content: space-evenly;
+}
+
+.resultPart {
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+  padding: 0.5%;
+  justify-content: space-evenly;
+}

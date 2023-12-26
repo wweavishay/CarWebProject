@@ -1,0 +1,200 @@
+.transparent {
+  opacity: 0.2;
+}
+
+.containerCostum {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 2% auto;
+  /* border: solid firebrick; */
+}
+
+.payScreen {
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: solid black; */
+}
+
+.btnSend {
+  width: 100%;
+  /* border: solid salmon; */
+}
+
+.btnPay {
+  width: 100%;
+  font-size: 150%;
+}
+.details {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  width: 59%;
+  /* border: solid blueviolet; */
+}
+
+.orderSum {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  width: 39%;
+  /* border: solid khaki; */
+}
+
+.driverDetails,
+.cardDetails,
+.orderDetails,
+.carImg,
+.totalPrice {
+  margin: 1%;
+  padding: 1%;
+}
+
+.qField {
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+}
+
+.qField1 {
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.lblTag {
+  width: 30%;
+}
+
+.lbl {
+  font-size: 120%;
+}
+
+.inputTag {
+  width: 70%;
+}
+
+.inputArea,
+.lblCheck {
+  width: 100%;
+}
+
+.pDetails {
+  width: 100%;
+  font-size: 120%;
+  border: none;
+}
+
+.lblTagDetails {
+  width: 50%;
+}
+
+.carSrc {
+  display: none;
+}
+
+.carImgSec {
+  margin: auto;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+}
+
+.agree {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+}
+
+.toatlPriceAmount {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  text-align: start;
+  margin: 0.5%;
+  background-image: linear-gradient(
+    to right,
+    rgba(55, 133, 61, 0.609),
+    rgb(255, 255, 255)
+  );
+}
+
+.card1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.owner {
+  width: 64%;
+}
+
+.CVV {
+  width: 34%;
+}
+
+.card-number-field {
+  padding: 1%;
+}
+
+.select1 {
+  width: 15%;
+}
+
+.innerCard2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.lblTagPay {
+  width: 24%;
+}
+
+.lblCheck {
+  font-size: 130%;
+}
+
+.check {
+  padding: 1%;
+  margin: auto;
+}
+
+#mastercard,
+#visa,
+#amex {
+  width: 31%;
+}
+
+@media screen and (max-width: 800px) {
+  .payScreen {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .details,
+  .orderSum,
+  .carImgSec {
+    width: 100%;
+  }
+
+  .lbl,
+  .pDetails {
+    font-size: 100%;
+  }
+
+  #mastercard,
+  #visa,
+  #amex {
+    width: 31%;
+  }
+}

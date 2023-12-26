@@ -1,0 +1,37 @@
+.connect {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 2% auto;
+}
+
+.connectDetails {
+  margin: 1%;
+}
+
+.qField {
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+}
+
+.lblTag {
+  width: 30%;
+}
+.lbl {
+  font-size: 130%;
+}
+
+.inputTag {
+  width: 70%;
+}
+
+.connectBtn {
+  margin: auto;
+  width: 98%;
+}
+.btnConnect {
+  width: 100%;
+}

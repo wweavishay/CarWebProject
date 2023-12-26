@@ -1,0 +1,39 @@
+/* Logo */
+
+.logo-img {
+  max-width: 60%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Navigation bar */
+
+.nav-bar {
+  width: 80%;
+}
+
+#current-tab {
+  background-color: rgb(42, 43, 42);
+}
+
+#other-tab {
+  color: green;
+  /* border: solid black; */
+}
+
+.nav-item {
+  font-size: 150%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-item :hover {
+  background-color: lightgrey;
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    flex-direction: column;
+  }
+}
